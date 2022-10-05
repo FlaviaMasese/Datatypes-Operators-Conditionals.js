@@ -42,11 +42,7 @@ let words6='undefined'
 let word26= 'used for unassigned values/a variable without a value.'
 let combinedWords126= words6 + space + word26
 console.log(combinedWords126)
-//symbol- used for unique identifiers 
-let words7='symbol'
-let word27= 'used for unique identifiers.'
-let combinedWords127= words7 + space + word27
-console.log(combinedWords127)
+
 
 /* EXERCISE 2
  Try to describe what a variable is, in your own words.
