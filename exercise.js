@@ -99,10 +99,10 @@ console.log(totalSub)
 */
 let name1='john'
 let name2='John'
-if (name1 ===name2){
-    console.log(false)}
-    if (name2===name1){console.log(true)}
- else{ console.log('/nNot equal')}
+let isname1DifferentFromName2=false
+let isname2SmallLetter = name2===name1
+console.log(isname1DifferentFromName2)
+console.log(isname2SmallLetter)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
@@ -112,9 +112,8 @@ if (name1 ===name2){
 
 /* WRITE YOUR ANSWER HERE */
 let xx= 9
-if (xx=1){console.log('/none')
-if (xx=5){console.log('/nfive')}
-} else {console.log('/nzero')}
+if (xx=xx){console.log('nine')
+} else {console.log('zero')}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
@@ -122,3 +121,6 @@ if (xx=5){console.log('/nfive')}
 */
 
 /* WRITE YOUR ANSWER HERE */
+let age = 20
+let soccerteam = (age<17) ? 'too young':'too old'
+console.log(soccerteam)
