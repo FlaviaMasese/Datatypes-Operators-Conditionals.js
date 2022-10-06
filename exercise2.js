@@ -56,7 +56,7 @@ const student2 = {
     emailaddress: 'Alice@gmail.com',
     age: 29,
 };
-console.log("STUDENT2-->", student)
+console.log("STUDENT2-->", student2)
 
 
 /* EXERCISE 6
@@ -72,10 +72,12 @@ total = totalPrice >50 ? totalPrice : totalPrice + shippingCost
 
 if (totalPrice > 50){
     total = totalPrice 
-    console.log('Free shipping included!')
+    console.log('\nFree shipping included!')
 } else{
     total = totalPrice + shippingCost
 }
+console.log(total)
+
 
 /* EXERCISE 7
  You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
@@ -91,13 +93,17 @@ if (totalPrice > 50){
 } else{
     totalcost = TotalCostDiscount + shippingCost
 }
-
+console.log(totalcost)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
  Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
  Then clone it 5 times, and change the licensePlate for each cloned car without affecting the original one.
-*/
+*/ const car = {brand:"Fiat", model:"500", licensePlate:"KBC"};
+for (let i = 0; i < car.length; i++) {
+    console.log(i);
+    console.log(car[5]);
+  }
 
 /* WRITE YOUR ANSWER HERE */
 
