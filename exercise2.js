@@ -93,7 +93,7 @@ console.log(total)
 } else{
     totalcost = TotalCostDiscount + shippingCost
 }
-console.log(totalcost)
+
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
@@ -109,7 +109,8 @@ for (let i = 0; i < car.length; i++) {
 
 /* EXERCISE 9
  Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
-*/
+*/ 
+
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -131,6 +132,8 @@ for (let i = 0; i < car.length; i++) {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const carsForSale = [firstCar.brand, mySecondcar.brand];
+console.log(carsForSale);
 
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.
